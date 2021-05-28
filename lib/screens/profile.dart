@@ -236,18 +236,18 @@ class _ProfileState extends State<Profile> {
                         height: 1,
                       ),
                       ChangeThemeButtonWidget(),
-                      Padding(
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 20.0, vertical: 14.0),
-                          child: ListTile(
-                            title: Text(
-                              'Version 3.0.21 Build 109',
-                              style: TextStyle(color: Colors.grey),
-                            ),
-                          )),
-                      Divider(
-                        height: 1,
-                      ),
+                      // Padding(
+                      //     padding: const EdgeInsets.symmetric(
+                      //         horizontal: 20.0, vertical: 14.0),
+                      //     child: ListTile(
+                      //       title: Text(
+                      //         'Version 3.0.21 Build 109',
+                      //         style: TextStyle(color: Colors.grey),
+                      //       ),
+                      //     )),
+                      // Divider(
+                      //   height: 1,
+                      // ),
                     ],
                   ),
                 )
